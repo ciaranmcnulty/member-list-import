@@ -1,0 +1,24 @@
+{
+    "name": "cmcnulty/kata",
+    "require-dev": {
+        "phpspec/phpspec": "~2.4@alpha",
+        "behat/behat" : "^3.0",
+        "behat/mink-extension": "~2.1",
+        "behat/mink": "~1.7",
+        "behat/mink-goutte-driver": "~1.2"
+    },
+    "authors": [
+        {
+            "name": "Ciaran McNulty",
+            "email": "mail@ciaranmcnulty.com"
+        }
+    ],
+    "autoload" : {
+        "psr-0" : {
+            "" : "src"
+        }
+    },
+    "config" : {
+        "bin-dir" : "bin"
+    }
+}

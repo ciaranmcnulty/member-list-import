@@ -1,0 +1,8 @@
+default:
+  suites:
+    core:
+      contexts: [ ImportContext ]
+      filters: { tags: ~@wip }
+    console:
+      contexts: [ ConsoleContext ]
+      filters: { tags: @critical }
